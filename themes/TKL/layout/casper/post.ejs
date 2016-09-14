@@ -1,0 +1,23 @@
+<% permalink = config.url + config.root + post.path %>
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+                <h1><%- post.title %></h1>
+                <!-- 统计 -->
+                <span id="busuanzi_container_page_pv">
+                  <%- partial('post/meta') %> | 阅读次数 <span id="busuanzi_value_page_pv"></span>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<%- post.content %>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+            <!-- 打赏 -->
+            <%- partial('declare') %>
+        </div>
+        <%- partial('post/navigation') %>
+        <div class="duoshuo"><%- partial('post/duoshuo') %></div>
+    </div>
+</section>

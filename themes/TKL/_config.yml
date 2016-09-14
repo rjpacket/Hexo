@@ -1,0 +1,56 @@
+# config
+cover: /img/bg_img.jpg
+logo: /img/logo.png
+top_saying:
+- title: 格子衫
+- content: 没有格子衫你敲什么代码
+bottom_saying: 有了格子衫你还敲什么代码
+# Content
+excerpt_link: Read More
+
+rss: /atom.xml
+
+highlightjs: vs
+
+#Works
+works:
+- works_name: HTML5
+  works_url: http://www.baidu.com
+- works_name: Python
+  works_url: http://www.baidu.com
+
+#duoshuo name
+duoshuo: rjpacket
+
+#百度统计
+baidu_tongji: true
+
+
+# Miscellaneous
+github: https://github.com/
+twitter: https://twitter.com/
+facebook: https://www.facebook.com/
+google: https://google.com/
+weibo: http://weibo.com/
+
+#about  timeline
+timeline:
+- num: 1
+  word: 2014/06/12-Start
+- num: 2
+  word: 2014/11/29-XXX
+- num: 3
+  word: 2015/02/18-DDD
+- num: 4
+  word: More
+
+#Links
+links:
+- name: qdj
+  link: http://simonenfp.github.io/
+- name: wyx
+  link: http://yothon.github.io/
+- name: nw
+  link: https://bestneville.github.io/
+- name: thc
+  link: https://hcmd.github.io/
